@@ -38,7 +38,7 @@ This flask app runs on the Flask development web server
 1. Start the containers using Docker Compose:
 
    ```bash
-   docker-compose up --build
+   docker-compose up -d --build
    ```
    <img width="488" alt="Screenshot 2023-10-20 150523" src="https://github.com/sshuen30/flask-project-db/assets/40738215/4c8ebd6a-db50-4ec6-b5cc-25a49077b9bf">
 
