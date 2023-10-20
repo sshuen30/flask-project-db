@@ -48,7 +48,8 @@ This flask app runs on the Flask development web server
 
 3. Create the `messages` table in your MySQL database:
 
-   - Use a MySQL client or tool (e.g., phpMyAdmin) to execute the following SQL commands:
+   - Login to phpmyadmin container using credentials: root, test@123
+   - Alternatively, docker exec into the phpmyadmin container and login in to sql to execute this command
    
      ```sql
      CREATE TABLE messages (
