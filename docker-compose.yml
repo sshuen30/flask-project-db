@@ -15,6 +15,14 @@ services:
       MYSQL_DB: two_tier
     depends_on:
       - mysql
+  
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - "8080:80"
+    links:
+     - "mysql:db"
 
   mysql:
     image: mysql:5.7
